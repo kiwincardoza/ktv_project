@@ -7,7 +7,7 @@ import tweepy
 # Function to send message
 def send_message(user_id, text):
     # This comes from BotFather
-    bf_token = '5449582238:AAHv4yiMigTYUSZ7fcJUaVRr2jFuTSQf3xA' 
+    bf_token = '---' 
     url = f"https://api.telegram.org/bot{bf_token}/sendMessage"
     
     params = {
@@ -20,10 +20,10 @@ def send_message(user_id, text):
    
   
 def get_twitter_authentication():
-  consumer_key = "Y1tJOTDMwwTfikgeq3oCzm32S"
-  consumer_secret = "Qwp8Vfxba8HqFVOPkXn5v6A2Aqsm9nnGKc3uNRp7YdgRfojvGD"
-  access_token = "3009962708-BnPNM3OW0iAKIiThMhvaWA8wGSFNUl9Yfs7rifA"
-  access_token_secret = "ZtOXKhQHHOqa2Sx8L9QaItF1XnGn5plJtXJVk6qEXhvLe"
+  consumer_key = "---"
+  consumer_secret = "---"
+  access_token = "---"
+  access_token_secret = "---"
 
   auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
   auth.set_access_token(access_token, access_token_secret)
